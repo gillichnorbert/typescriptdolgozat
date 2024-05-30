@@ -1,0 +1,40 @@
+<!--
+File: index.html
+Author: Gillich Norbert
+Copyright: 2024, Gillich Norbert
+Group: Szoft I-2-N
+Date: 2024-05-30
+Github: https://github.com/gillichnorbert/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinto Project</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Átló Számítás</h1>
+      <div class="form"></div>
+
+      <label for="aSide" class="form-label">1. oldal</label>
+      <input type="text" id="aSide" class="form-control">
+
+      <label for="bSide">2. oldal</label>
+      <input type="text" id="bSide" class="form-control">
+
+      <button id="calcButton" class="btn btn-secondary mt-2">Számítás</button>
+
+      <div class="result">
+        <label for="diagonal" class="formlabel mt-2">Átló</label>
+        <input type="text" id="diagonal" class="form-control">
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
